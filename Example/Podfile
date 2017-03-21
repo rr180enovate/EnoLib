@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EnoLib_Example' do
+  pod 'EnoLib', :path => '../'
+
+  target 'EnoLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
