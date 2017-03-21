@@ -1,0 +1,16 @@
+PODS:
+  - EnoLib (0.1.0)
+
+DEPENDENCIES:
+  - EnoLib (from `../`)
+
+EXTERNAL SOURCES:
+  EnoLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EnoLib: 26f3948416ab1e4cba665c2741d7e039a6c64de1
+
+PODFILE CHECKSUM: c9f3b16884820a9c167434e5f29b41997b0e3580
+
+COCOAPODS: 1.2.0

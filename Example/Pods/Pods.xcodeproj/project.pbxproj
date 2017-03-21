@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19C5A3A5D5DF55226C6FC7087DEB6270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1A30F3E3CA6E7BD7B24CF24DD8FDA680 /* Pods-EnoLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F61A03097BEB327E44F980B11242321A /* Pods-EnoLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A7EF9BB54DB8B5BA65CB9194BEE21F7 /* Pods-EnoLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D07FB76E86941D6550921BF04D42D4 /* Pods-EnoLib_Example-dummy.m */; };
+		3223FAD74377AE1DDA1841036D1ED29C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 669455449CE94966717073ADABA086D4 /* ReplaceMe.m */; };
+		51C4D9881007B456B9F1647EE3DB51CF /* EnoLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 664C6FD5A561200B6123E44CC8166A3D /* EnoLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		791A7372C9A1FB839BCFEEED186EFB9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		8107E2750382E9F07204F3E9C64B79BB /* Pods-EnoLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FD03135FD6B3AC88C56124C014B0CFA /* Pods-EnoLib_Tests-dummy.m */; };
+		B2AAD2EAC6344666E2B0A0E3E31E8CDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E5D1D37A8060C70F129718712730F277 /* Pods-EnoLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADDAE0582888FF0F5E49684B307B7262 /* Pods-EnoLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6FF50EB771616CD58544952D4013C5E /* EnoLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7C5C2A245C0AF73F3217B3528E1232 /* EnoLib-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B8C315738A399217FD41322B0E0012B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A029CDCC79D4D79A800F5A5BFDE3A97;
+			remoteInfo = EnoLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		024FD5C008E2014E1EC4AC8A0C73C643 /* EnoLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EnoLib-prefix.pch"; sourceTree = "<group>"; };
+		09FC93DE8C11DFE7C0F6EEA8BAEB2B60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EBEC9099CB78069320C9D51F82C9944 /* Pods_EnoLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EnoLib_Tests.framework; path = "Pods-EnoLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7C5C2A245C0AF73F3217B3528E1232 /* EnoLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EnoLib-dummy.m"; sourceTree = "<group>"; };
+		1FD03135FD6B3AC88C56124C014B0CFA /* Pods-EnoLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnoLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		335F831AF99FF2E324D080C501BA32F9 /* Pods-EnoLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnoLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3D460B744330626214CE553FAF49FC32 /* Pods-EnoLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnoLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3F7BF8FB0B796442FDDD612F8743AADC /* Pods_EnoLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EnoLib_Example.framework; path = "Pods-EnoLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B62277E029EF6E5C63116305904070 /* Pods-EnoLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnoLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4ADAEC82B751AC2498AFC5C3F121CC7C /* Pods-EnoLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnoLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		50D07FB76E86941D6550921BF04D42D4 /* Pods-EnoLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnoLib_Example-dummy.m"; sourceTree = "<group>"; };
+		54D49D9C85F8552776190EF764C1ECEF /* Pods-EnoLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnoLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CF5A64EDAD0B7B375503A1F19FC1FD6 /* Pods-EnoLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EnoLib_Tests.modulemap"; sourceTree = "<group>"; };
+		664C6FD5A561200B6123E44CC8166A3D /* EnoLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EnoLib-umbrella.h"; sourceTree = "<group>"; };
+		669455449CE94966717073ADABA086D4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		682EA9110F328A69513C69229F4A946A /* EnoLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EnoLib.framework; path = EnoLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C815040BF871C43967C4A9E156EE1C0 /* Pods-EnoLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnoLib_Example-resources.sh"; sourceTree = "<group>"; };
+		828637FB916B7FAD74302891B1C49186 /* EnoLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EnoLib.xcconfig; sourceTree = "<group>"; };
+		87DDC5BBB20FF3E57E9A81D66070E797 /* EnoLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EnoLib.modulemap; sourceTree = "<group>"; };
+		8A0707BAB2FE122ED66D1D8726141DC5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D21016CF0C63236308D0684D385F82 /* Pods-EnoLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnoLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A93CC39182F3C7F63DCFBBD3C456AC07 /* Pods-EnoLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnoLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB0C42E0A52816A8E2FE470E3CC127F5 /* Pods-EnoLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EnoLib_Example.modulemap"; sourceTree = "<group>"; };
+		AB58CB1B073C89BE90A6C4CB2EA076A0 /* Pods-EnoLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnoLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADDAE0582888FF0F5E49684B307B7262 /* Pods-EnoLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnoLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BABE2E778E3E962D2A11C3C9DBC9AABB /* Pods-EnoLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnoLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C3C4DEBDDFAD9E6E1C744E21CAEA2826 /* Pods-EnoLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnoLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D4552FD674F33AE39D3D72D318000B72 /* Pods-EnoLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EnoLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		D8FCC109FE492F2466FD03EA1DA45445 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61A03097BEB327E44F980B11242321A /* Pods-EnoLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnoLib_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19CB2DC582F0469F7E9B7A4533920A72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				791A7372C9A1FB839BCFEEED186EFB9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBD1685041D633F5D2DCE6D1DFEA606 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AAD2EAC6344666E2B0A0E3E31E8CDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		597C6D094E3551DD3644BA9D5C8F4A4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C5A3A5D5DF55226C6FC7087DEB6270 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033A67FBDF71703E2EFC5EECAC3295C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				682EA9110F328A69513C69229F4A946A /* EnoLib.framework */,
+				3F7BF8FB0B796442FDDD612F8743AADC /* Pods_EnoLib_Example.framework */,
+				0EBEC9099CB78069320C9D51F82C9944 /* Pods_EnoLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F614D2A095AC69121385648A4A7996D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				669455449CE94966717073ADABA086D4 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		54F5943A5EA911B03A2F6AA335FD9A72 /* Pods-EnoLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D8FCC109FE492F2466FD03EA1DA45445 /* Info.plist */,
+				5CF5A64EDAD0B7B375503A1F19FC1FD6 /* Pods-EnoLib_Tests.modulemap */,
+				3D460B744330626214CE553FAF49FC32 /* Pods-EnoLib_Tests-acknowledgements.markdown */,
+				A93CC39182F3C7F63DCFBBD3C456AC07 /* Pods-EnoLib_Tests-acknowledgements.plist */,
+				1FD03135FD6B3AC88C56124C014B0CFA /* Pods-EnoLib_Tests-dummy.m */,
+				BABE2E778E3E962D2A11C3C9DBC9AABB /* Pods-EnoLib_Tests-frameworks.sh */,
+				D4552FD674F33AE39D3D72D318000B72 /* Pods-EnoLib_Tests-resources.sh */,
+				ADDAE0582888FF0F5E49684B307B7262 /* Pods-EnoLib_Tests-umbrella.h */,
+				54D49D9C85F8552776190EF764C1ECEF /* Pods-EnoLib_Tests.debug.xcconfig */,
+				C3C4DEBDDFAD9E6E1C744E21CAEA2826 /* Pods-EnoLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-EnoLib_Tests";
+			path = "Target Support Files/Pods-EnoLib_Tests";
+			sourceTree = "<group>";
+		};
+		6F3133E8BC877CF439D119A40CFFDA6F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC514A75AEA661332486DCC8BBA4E210 /* Pods-EnoLib_Example */,
+				54F5943A5EA911B03A2F6AA335FD9A72 /* Pods-EnoLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7479B92B6BB452D63F562E4CF8E4E358 /* EnoLib */ = {
+			isa = PBXGroup;
+			children = (
+				4F614D2A095AC69121385648A4A7996D /* Classes */,
+			);
+			name = EnoLib;
+			path = EnoLib;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				EF96F3F94EA0C86F42BB8F7D7D930D73 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				033A67FBDF71703E2EFC5EECAC3295C0 /* Products */,
+				6F3133E8BC877CF439D119A40CFFDA6F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA7CA4F8D266A067D10ECBF0F42B58C7 /* EnoLib */ = {
+			isa = PBXGroup;
+			children = (
+				7479B92B6BB452D63F562E4CF8E4E358 /* EnoLib */,
+				FACEC130E7F5A6AEE599BE6FF9BD7583 /* Support Files */,
+			);
+			name = EnoLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EC514A75AEA661332486DCC8BBA4E210 /* Pods-EnoLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8A0707BAB2FE122ED66D1D8726141DC5 /* Info.plist */,
+				AB0C42E0A52816A8E2FE470E3CC127F5 /* Pods-EnoLib_Example.modulemap */,
+				90D21016CF0C63236308D0684D385F82 /* Pods-EnoLib_Example-acknowledgements.markdown */,
+				AB58CB1B073C89BE90A6C4CB2EA076A0 /* Pods-EnoLib_Example-acknowledgements.plist */,
+				50D07FB76E86941D6550921BF04D42D4 /* Pods-EnoLib_Example-dummy.m */,
+				42B62277E029EF6E5C63116305904070 /* Pods-EnoLib_Example-frameworks.sh */,
+				7C815040BF871C43967C4A9E156EE1C0 /* Pods-EnoLib_Example-resources.sh */,
+				F61A03097BEB327E44F980B11242321A /* Pods-EnoLib_Example-umbrella.h */,
+				4ADAEC82B751AC2498AFC5C3F121CC7C /* Pods-EnoLib_Example.debug.xcconfig */,
+				335F831AF99FF2E324D080C501BA32F9 /* Pods-EnoLib_Example.release.xcconfig */,
+			);
+			name = "Pods-EnoLib_Example";
+			path = "Target Support Files/Pods-EnoLib_Example";
+			sourceTree = "<group>";
+		};
+		EF96F3F94EA0C86F42BB8F7D7D930D73 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA7CA4F8D266A067D10ECBF0F42B58C7 /* EnoLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FACEC130E7F5A6AEE599BE6FF9BD7583 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87DDC5BBB20FF3E57E9A81D66070E797 /* EnoLib.modulemap */,
+				828637FB916B7FAD74302891B1C49186 /* EnoLib.xcconfig */,
+				1E7C5C2A245C0AF73F3217B3528E1232 /* EnoLib-dummy.m */,
+				024FD5C008E2014E1EC4AC8A0C73C643 /* EnoLib-prefix.pch */,
+				664C6FD5A561200B6123E44CC8166A3D /* EnoLib-umbrella.h */,
+				09FC93DE8C11DFE7C0F6EEA8BAEB2B60 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EnoLib";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		165B61AFC3D77E49FEF9E4B52D37BD95 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A30F3E3CA6E7BD7B24CF24DD8FDA680 /* Pods-EnoLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C61CDB81C1FC22053FBC24782A211DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C4D9881007B456B9F1647EE3DB51CF /* EnoLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891A47848074BC1D97D1EB399B3D558D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5D1D37A8060C70F129718712730F277 /* Pods-EnoLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1704D72043531C3B7EEC7855D75F2D76 /* Pods-EnoLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56F33A95A9E4ECC0F20FF14AB43C03CD /* Build configuration list for PBXNativeTarget "Pods-EnoLib_Tests" */;
+			buildPhases = (
+				5847BD7BF2F47560335B3A28858B93D8 /* Sources */,
+				3DBD1685041D633F5D2DCE6D1DFEA606 /* Frameworks */,
+				891A47848074BC1D97D1EB399B3D558D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EnoLib_Tests";
+			productName = "Pods-EnoLib_Tests";
+			productReference = 0EBEC9099CB78069320C9D51F82C9944 /* Pods_EnoLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A029CDCC79D4D79A800F5A5BFDE3A97 /* EnoLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D2E64DAF97B0E243796DDDE00BFC8FD /* Build configuration list for PBXNativeTarget "EnoLib" */;
+			buildPhases = (
+				D1A0CFDEE0243CA14FF31A3AC68909DC /* Sources */,
+				597C6D094E3551DD3644BA9D5C8F4A4F /* Frameworks */,
+				3C61CDB81C1FC22053FBC24782A211DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnoLib;
+			productName = EnoLib;
+			productReference = 682EA9110F328A69513C69229F4A946A /* EnoLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8A109E4A0C1E1C11DA6EB1A8B12E7D69 /* Pods-EnoLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD7E14A25847357D7AEECDEF7CBEA99 /* Build configuration list for PBXNativeTarget "Pods-EnoLib_Example" */;
+			buildPhases = (
+				B7EA02736F5BFD06FD9D09E627CC3D0F /* Sources */,
+				19CB2DC582F0469F7E9B7A4533920A72 /* Frameworks */,
+				165B61AFC3D77E49FEF9E4B52D37BD95 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7181A4BB5687F21E32FD4D8C69E824BF /* PBXTargetDependency */,
+			);
+			name = "Pods-EnoLib_Example";
+			productName = "Pods-EnoLib_Example";
+			productReference = 3F7BF8FB0B796442FDDD612F8743AADC /* Pods_EnoLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 033A67FBDF71703E2EFC5EECAC3295C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A029CDCC79D4D79A800F5A5BFDE3A97 /* EnoLib */,
+				8A109E4A0C1E1C11DA6EB1A8B12E7D69 /* Pods-EnoLib_Example */,
+				1704D72043531C3B7EEC7855D75F2D76 /* Pods-EnoLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5847BD7BF2F47560335B3A28858B93D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8107E2750382E9F07204F3E9C64B79BB /* Pods-EnoLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7EA02736F5BFD06FD9D09E627CC3D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7EF9BB54DB8B5BA65CB9194BEE21F7 /* Pods-EnoLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1A0CFDEE0243CA14FF31A3AC68909DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6FF50EB771616CD58544952D4013C5E /* EnoLib-dummy.m in Sources */,
+				3223FAD74377AE1DDA1841036D1ED29C /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7181A4BB5687F21E32FD4D8C69E824BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EnoLib;
+			target = 4A029CDCC79D4D79A800F5A5BFDE3A97 /* EnoLib */;
+			targetProxy = 3B8C315738A399217FD41322B0E0012B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F9AE8CEF2F2B7CF93AB675800313E29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828637FB916B7FAD74302891B1C49186 /* EnoLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EnoLib/EnoLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EnoLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EnoLib/EnoLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EnoLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3210E419B3467B339F59E56D425E60D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 335F831AF99FF2E324D080C501BA32F9 /* Pods-EnoLib_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EnoLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnoLib_Example/Pods-EnoLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EnoLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57A2650F5C8E2750E80952AC3A47777F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADAEC82B751AC2498AFC5C3F121CC7C /* Pods-EnoLib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EnoLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnoLib_Example/Pods-EnoLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EnoLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6C1265A3BF4904EF1B88282F7A5AD377 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828637FB916B7FAD74302891B1C49186 /* EnoLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EnoLib/EnoLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EnoLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EnoLib/EnoLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EnoLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		99C94F51DC15EA64410EA3AC4BC5D69C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C4DEBDDFAD9E6E1C744E21CAEA2826 /* Pods-EnoLib_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EnoLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnoLib_Tests/Pods-EnoLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EnoLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3A48D8133CE2ABC8391CF4256950261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54D49D9C85F8552776190EF764C1ECEF /* Pods-EnoLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EnoLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnoLib_Tests/Pods-EnoLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EnoLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D2E64DAF97B0E243796DDDE00BFC8FD /* Build configuration list for PBXNativeTarget "EnoLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C1265A3BF4904EF1B88282F7A5AD377 /* Debug */,
+				2F9AE8CEF2F2B7CF93AB675800313E29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56F33A95A9E4ECC0F20FF14AB43C03CD /* Build configuration list for PBXNativeTarget "Pods-EnoLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A48D8133CE2ABC8391CF4256950261 /* Debug */,
+				99C94F51DC15EA64410EA3AC4BC5D69C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD7E14A25847357D7AEECDEF7CBEA99 /* Build configuration list for PBXNativeTarget "Pods-EnoLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57A2650F5C8E2750E80952AC3A47777F /* Debug */,
+				3210E419B3467B339F59E56D425E60D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
