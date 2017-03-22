@@ -22,7 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		9DC1143D09EF0AC7A0ABE8DC /* Pods_EnoLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7AD0DAAC03B10DA78E174D /* Pods_EnoLib_Tests.framework */; };
 		A2CEA29EDC14CD760C4BE8E0 /* Pods_EnoLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D298824E8535447AA2F9AC87 /* Pods_EnoLib_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		026CA145425EE1FE52380B93 /* Pods-EnoLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnoLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnoLib_Tests/Pods-EnoLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F20B86A782D2CF14B912A3E /* Pods-EnoLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnoLib_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnoLib_Example/Pods-EnoLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* EnoLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnoLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,7 +58,6 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6C7AD0DAAC03B10DA78E174D /* Pods_EnoLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnoLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		72677330AC072FF1DE3BA84D /* Pods-EnoLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnoLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnoLib_Tests/Pods-EnoLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7FFFC11C178A1E2412F73597 /* EnoLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EnoLib.podspec; path = ../EnoLib.podspec; sourceTree = "<group>"; };
 		80A1C6E33082DF45F3D82E78 /* Pods-EnoLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnoLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnoLib_Example/Pods-EnoLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,7 +85,6 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9DC1143D09EF0AC7A0ABE8DC /* Pods_EnoLib_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,8 +186,6 @@
 			children = (
 				80A1C6E33082DF45F3D82E78 /* Pods-EnoLib_Example.debug.xcconfig */,
 				3F20B86A782D2CF14B912A3E /* Pods-EnoLib_Example.release.xcconfig */,
-				026CA145425EE1FE52380B93 /* Pods-EnoLib_Tests.debug.xcconfig */,
-				72677330AC072FF1DE3BA84D /* Pods-EnoLib_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -223,12 +217,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "EnoLib_Tests" */;
 			buildPhases = (
-				EE1C69317D547B1FBAC1959D /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				F380465617CF7377FBBDD77E /* [CP] Embed Pods Frameworks */,
-				E184ED00E875B6F4B9667173 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,51 +316,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnoLib_Example/Pods-EnoLib_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E184ED00E875B6F4B9667173 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnoLib_Tests/Pods-EnoLib_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EE1C69317D547B1FBAC1959D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		F380465617CF7377FBBDD77E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnoLib_Tests/Pods-EnoLib_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FC73D2135F128F2316424675 /* [CP] Check Pods Manifest.lock */ = {
@@ -551,7 +497,6 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 026CA145425EE1FE52380B93 /* Pods-EnoLib_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -575,7 +520,6 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72677330AC072FF1DE3BA84D /* Pods-EnoLib_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,6 +1,0 @@
-framework module Pods_EnoLib_Tests {
-  umbrella header "Pods-EnoLib_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

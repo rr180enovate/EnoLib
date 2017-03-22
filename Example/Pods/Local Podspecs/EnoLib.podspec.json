@@ -1,9 +1,9 @@
 {
   "name": "EnoLib",
   "version": "0.1.0",
-  "summary": "A short description of EnoLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Rahul Rathod/EnoLib",
+  "summary": "Intall library into projects.",
+  "description": "EnoLib - Intall library into projects.",
+  "homepage": "https://github.com/rr180enovate/EnoLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,12 @@
     "Rahul Rathod": "rr180@enovate-it.com"
   },
   "source": {
-    "git": "https://github.com/Rahul Rathod/EnoLib.git",
+    "git": "https://github.com/rr180enovate/EnoLib.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "EnoLib/Classes/**/*"
+  "source_files": "EnoLib/Classes/**/*",
+  "frameworks": "UIKit"
 }
