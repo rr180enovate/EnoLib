@@ -7,7 +7,7 @@
 //
 
 #import "EnoViewController.h"
-#import <EnoLib/EnoLib-umbrella.h>
+#import <EnoLib/ReplaceMe.h>
 @interface EnoViewController ()
 
 @end

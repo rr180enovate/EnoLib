@@ -1,6 +1,0 @@
-framework module EnoLib {
-  umbrella header "EnoLib-umbrella.h"
-
-  export *
-  module * { export * }
-}
